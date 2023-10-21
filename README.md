@@ -147,3 +147,29 @@ Aprender o básico sobre contribuição no GitHub.
 
 ##
 <div align="center">Feito com 💙 por <a href="https://github.com/elidianaandrade">Eli</a>.</div>
+
+
+## Criando uma nova branch no repositório e atualizá-la com o conteúdo da branch principal
+
+1) Clonar o repositório:  `git clone https://github.com/USERNAME/dio-lab-handy-contribuicao.git`
+
+2) Criar uma nova branch e nomeá-la: `git checkout -b nome_da_branch`
+
+3) Atualizar a branch criada com o conteúdo da branch principal: `git pull origin nome_da_branch_principal`
+
+
+## Enviar as alterações feitas na nova branch criada, para a branch principal
+
+1) git add .
+
+2) git commit -m "comentário"
+
+3) git push origin nome_da_branch_atual
+
+4) git checkout nome_da_branch_principal
+
+5) git pull
+
+6) git merge nome_da_branch_principal
+
+7) git push origin nome_da_branch_principal
